@@ -356,3 +356,88 @@ h2{
   border-radius: 3px;
   color:#454545;
 }
+
+
+.area5{
+  background-size: cover;
+  background-position: center;
+  background-image: url(../img/bg4.jpg);
+  height:600px;
+}
+
+footer{
+  background-color:#333333;
+  color: white;
+  padding:80px;
+  text-align:center;
+}
+
+
+
+@media  ( min-width:769px) and (max-width : 1140px){
+
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+@media (min-width:426px) and  ( max-width: 768px){ 
+
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.area1{
+  grid-template-columns:3fr 2fr;
+}
+
+
+.area2{
+  grid-template-columns:2fr 3fr;
+}
+
+
+.area3{
+  grid-template-columns:2fr 3fr;
+}
+
+}
+
+
+@media ( max-width:425px){
+
+.container{
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+
+.header-search input{
+
+max-width: 80px;
+
+}
+
+h1{
+  font-size:50px;
+  line-height:40px;
+}
+
+
+.banner-images img{
+  height: 70px;
+  width: 70px;
+  border: 3px solid #117050;
+  border-radius: 50%;
+  margin-right: 10px;
+  
+  }
+
+  .area1--content{
+    grid-template-column:1fr
+  }
+
+}
